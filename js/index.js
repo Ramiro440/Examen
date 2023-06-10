@@ -12,10 +12,10 @@ fetching().then(
             <div class="item">
             <a href="${item.url}">
                 <img src="${item.image}" />
-                <h2>${item.name}</h2>
-                <h3>${item.status}</h3>
-                <h4>${item.spacies}</h4>
-                <p>${item.gender}</p>
+                <div class="item-description">
+                    <h2>${item.name}</h2>
+                    <h3>${item.status} - ${item.species} - ${item.gender}</h3>
+                </div>
             </a>
             </div>
           `

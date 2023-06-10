@@ -93,3 +93,25 @@ section {
     color: #fff;
     text-decoration: none;
 }
+
+.item-detail {
+    display: flex;
+    gap: 20px;
+
+}
+
+.item-detail-description {
+    background: rgba(60, 62, 68);
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-detail-description, 
+.item-detail img {
+    flex: 0  50%;
+}

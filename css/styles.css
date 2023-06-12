@@ -113,5 +113,5 @@ section {
 
 .item-detail-description, 
 .item-detail img {
-    flex: 0  50%;
+    flex: 0 1 50%;
 }

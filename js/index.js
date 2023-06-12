@@ -10,11 +10,12 @@ fetching().then(
         response.results.forEach(item => {
             template += `
             <div class="item">
-            <a href="${item.url}">
-                <img src="${item.image}" />
+            <a href="character.html?id=${item.id}">
+                <img src="${item.image}"/>
                 <div class="item-description">
                     <h2>${item.name}</h2>
-                    <h3>${item.status} - ${item.species} - ${item.gender}</h3>
+                    <h3>${item.status} - ${item.species} - ${item.gender}
+                    </h3>
                 </div>
             </a>
             </div>

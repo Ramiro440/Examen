@@ -115,3 +115,31 @@ section {
 .item-detail img {
     flex: 0 1 50%;
 }
+
+#pagination {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 5px 0;
+}
+
+.page {
+    border: 1px solid #535353;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.page.current{
+    background: #535353;
+}
+
+.page.current a {
+    color: #fff;
+}
+
+
+.page a {
+    display: block;
+    color: #535353;
+    text-decoration: none;
+}

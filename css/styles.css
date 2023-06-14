@@ -143,3 +143,27 @@ section {
     color: #535353;
     text-decoration: none;
 }
+
+#results_locations {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 15px;
+}
+
+.item-locations-description {
+    background: rgba(60, 62, 68);
+    padding: 15px;
+}
+
+.item-locations-description h2 {
+    color: #eb7608;
+}
+.item-locations-description h3 {
+    color: #fff;
+}
+
+#pagination_location {
+    display: flex;
+    margin: 20px 0;
+}

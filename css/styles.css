@@ -167,3 +167,32 @@ section {
     display: flex;
     margin: 20px 0;
 }
+
+#results_episodes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 15px;
+}
+
+.item-episodes-description {
+    background: rgba(60, 62, 68);
+    padding: 15px;
+}
+
+.item-episodes-description h2 {
+    color: #eb7608;
+}
+
+.item-episodes-description h3 {
+    color: #eb7608;
+}
+
+.item-episodes-description h4 {
+    color: #fff;
+}
+
+#pagination_episodes {
+    display: flex;
+    margin: 20px 0;
+}
